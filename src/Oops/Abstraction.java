@@ -39,11 +39,15 @@ interface people{
 }
 
 interface car{
+    default void hehe(){
+        System.out.println("default");
+    }
     void engineStart();
     void gearSystem();
     void breakSystem();
     void tyre();
 }
+
 
 
 /// multiple inheritance is achieved through interface
