@@ -6,7 +6,10 @@ class Access{
     int def; // default can be access from within class and withing the same package
     private int prv; // can only be access inside this class
 
-
+    public int getPub() {
+        return pub;
+    }
 }
 public class AccessModifiers {
 }
+

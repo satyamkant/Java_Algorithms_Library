@@ -2,6 +2,8 @@ package Oops;
 
 abstract class shape{   // we can not create instances of abstract class
                         // we can only crate subclasses of it
+                        // can have constructor
+                        // uninitialized variable allowed
     int color;
     shape(int x){ // abstract class can have constructors
         color = x;
@@ -33,7 +35,10 @@ interface people{
     // public static final instance variable
     // all methods are public
     // multiple implementation and inheritance
-    // an abstract class can implement a interface
+    // an abstract class can implement an interface
+    // no constructor
+    // uninitialized variable not allowed
+
     void run();
     void speak();
 }
@@ -94,7 +99,7 @@ class multipleInheritance extends shape implements car,people{
 
 }
 
-public class Abstraction {
+public class  Abstraction {
     // can be achieved using abstract class or interface
 
 }
