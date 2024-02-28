@@ -21,7 +21,7 @@ class Student{
 
 // always declare comp class outside other class
 // as it may cause it gives static error, not sure why
-class comp implements Comparator<Student>{
+class Comp implements Comparator<Student>{
 
     @Override
     public int compare(Student o1, Student o2) {
@@ -39,6 +39,6 @@ public class ComparatorExample {
 
     TreeMap<UsingComparable,Integer> mp = new TreeMap<>();  // no need to pass the custom comparator
                                                             // as it is provided in the key class itself
-    TreeMap<Student,Integer> _mp = new TreeMap<>(new comp()); // custom comparator is passed here
+    TreeMap<Student,Integer> _mp = new TreeMap<>(new Comp()); // custom comparator is passed here
 
 }
