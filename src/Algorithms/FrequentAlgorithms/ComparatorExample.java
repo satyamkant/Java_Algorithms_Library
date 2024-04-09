@@ -1,7 +1,5 @@
 package Algorithms.FrequentAlgorithms;
 
-import com.sun.source.tree.Tree;
-
 import java.util.Comparator;
 import java.util.TreeMap;
 
