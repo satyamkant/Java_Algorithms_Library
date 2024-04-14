@@ -1,4 +1,4 @@
-static class PrimeFactors{
+class PrimeFactors{
         /**
          *
          * @param n integer
